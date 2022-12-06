@@ -1,0 +1,21 @@
+.footer {
+  /* giúp cho footer cố định dưới màn hình */
+    
+    bottom:0;
+    width:100%;
+    height:60px;
+}
+
+.footer2{
+  position: sticky;
+  bottom:0;
+  width:100%;
+  height:60px;
+}
+
+.footer3{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height:60px;
+}

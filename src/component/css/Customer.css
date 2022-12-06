@@ -1,0 +1,95 @@
+.nbsp {
+    margin-left: 20px;
+}
+
+.repSearch {
+    width: 350px;
+    margin-right: 10px;
+    height: 39px;
+}
+
+.height-btn {
+    height: 39px;
+}
+
+.custom-btn-outline-info {
+    --bs-btn-color: #0dcaf0;
+    --bs-btn-hover-border-color: #cfd3d7;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-border-color: #738ca5;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #0dcaf0;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #0dcaf0;
+    --bs-gradient: none;
+}
+
+.custom_modal {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    float: left;
+}
+
+.custom-bg {
+    width: 95%;
+    margin-left: 40px;
+    border-radius: 17px;
+}
+
+.center-bg {
+    margin-top: 14px;
+}
+
+.td-customer {
+    text-align: center;
+    vertical-align:middle
+}
+
+.search {
+    float: right;
+    margin-right: 10px;
+  }
+  
+
+@media only screen and (max-width: 425px) {
+    .customButton {
+        width: 20;
+    }
+
+    .nbsp {
+        margin-left: 0;
+    }
+
+    .custom-bg {
+        width: 100%;
+        border-radius: 17px;
+        margin-right: 35px;
+        margin: auto;
+    }
+
+    .repSearch {
+        width: 170px;
+        margin-right: 10px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .height-btn {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .font-btn {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .custom-bg {
+        width: 100%;
+        border-radius: 17px;
+        margin-right: 35px;
+        margin: auto;
+    }
+}

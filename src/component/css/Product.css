@@ -1,0 +1,17 @@
+td {
+    text-align: center;
+    height: 70px;
+    
+}
+
+.custom-bg {
+    background-color: #cfd3d7;
+    width: 95%;
+    margin-top: 20px;
+    border-radius: 17px;
+    margin-bottom: 20px;
+}
+
+.dis-product {
+    float: right;
+}
